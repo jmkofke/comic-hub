@@ -1,0 +1,218 @@
+/*stylesheet*/
+
+body {
+	font-family: Helvetica;
+	font-size: 18px;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+body a{
+	color: purple;
+}
+
+#header {
+	width: 100%;
+	font-family: Courier;
+}
+
+#navbar{
+	padding-left: 40px;
+}
+
+#logocell{
+	padding-left: 40px;
+	font-family: Courier;
+}
+
+.navcell{
+	padding-left: 20px;
+	padding-right: 40px;
+}
+
+a:hover{
+	opacity: .5;
+}
+
+#bar{
+	height: 10px;
+	background-color: blueviolet;
+}
+
+#body{
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#sidebar{
+	height: 575px;
+	width: 150px;
+	float: left;
+	font-family: Courier;
+}
+
+#randombox {
+	font-size: 12px;
+	padding: 10px;
+	height: 50px;
+	width: 150px;
+	background-color: mediumorchid;
+	margin-bottom: 10px;
+}
+
+#genrebox {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	height: 350px;
+	width: 150px;
+	background-color: darkorchid;
+	text-align: left;
+	font-size: 14px;
+}
+
+#genretext {
+	padding: 10px;
+	line-height: 150%;
+}
+
+#genretext a {
+	text-decoration: none;
+	color: black;
+}
+
+#genretext a:hover{
+	opacity: 100%;
+	color: white;
+}
+
+#gheader {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#bodycell {
+	vertical-align: top;
+	margin-left: 200px;
+/*	float: right;*/
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 900px;
+	text-align: left;
+	font-size: 16px;
+	font-family: Georgia;
+}
+
+#randImage{
+	width: 135px;
+	padding: 3px;
+}
+
+.pictureCell {
+	width: 170px;
+	height: 200px;
+}
+
+.picture {
+	width: 150px;
+	padding: 10px;
+}
+
+.picture:hover{
+	opacity: 100%;
+}
+
+.title {
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 2px;
+}
+
+.title a{
+	color: black;
+	text-decoration: none;
+}
+
+.undertext {
+	font-size: 12px;
+	font-style: italic;
+	padding-top: 5px;
+}
+
+.undergenre {
+	font-size: 12px;
+	padding: 2px;
+	padding-bottom: 5px;
+}
+
+.undergenre a{
+	text-decoration: none;
+	color: purple;
+}
+
+#quiztop {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 625px;
+}
+
+#button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#quizImage{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#question{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+}
+
+#answers{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	line-height: 170%;
+
+}
+
+#q3images{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+}
+
+#submitcell {
+	line-height: 150%;
+	padding-top: 20px;
+}
+
+#submitform {
+	line-height: 200%;
+	font-family: courier;
+}
+
+textarea { 
+    width: 400px; 
+    max-width: 400px;
+    height: 150px; 
+    line-height: 150%; 
+    border-style: solid;
+    border-color: gainsboro;
+    }

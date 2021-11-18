@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<link rel="stylesheet" type="text/css" href="p2stylesheet.css">
+<title>ComicHub</title>
+
+<script>
+
+</script>
+
+<body>
+
+	<table id = "header">
+		<tr align = "left">
+			<td id = "logocell"> <h1> [ComicHub]</h1></td>
+			<td align = "right"> <table id = "navbar">
+				<tr>
+					<td class = "navcell"> <a href = "project2.html"> Home </a> </td>
+					<!-- <td class = "navcell"> <a href = ""> Genres </a> </td> -->
+					<td class = "navcell"> <a href = "p2top10.html"> Top 10 </a> </td>
+					<td class = "navcell"> <a href = "p2quiz.html"> Quiz </a> </td>
+					<td class = "navcell"> <a href = "p2submit.html"> Submit </a> </td>
+				</tr></table>
+			</td>
+		</tr>
+		<tr id = "bar">
+			<td colspan = "2"></td>
+		</tr>
+	</table>
+
+	<div id = "body">
+		<div id = "sidebar">
+			<div id = "randombox">Comic of the Week: <br>
+			<a href="http://soultocall.com/"><img id="randImage" src="stcbanner.jpg"></a></div>
+
+			<div id = "genrebox">
+				<div id = "genretext">
+				<div id = "gheader"> Genres </div>
+				<a href = "p2action.html">Action<br></a>
+				<a href = "p2adventure.html">Adventure<br></a>
+				<a href = "p2comedy.html">Comedy<br></a>
+				<a href = "p2drama.html">Drama<br></a>
+				<a href = "p2fantasy.html">Fantasy<br></a>
+				<a href = "p2horror.html">Horror<br></a>
+				<a href = "p2lgbt.html">LGBT<br></a>
+				<a href = "p2mystery.html">Mystery<br></a>
+				<a href = "p2postapocalypse.html">Post-Apocalypse<br></a>
+				<a href = "p2romance.html">Romance<br></a>
+				<a href = "p2scifi.html">Science Fiction<br></a>
+				<a href = "p2sliceoflife.html">Slice of Life<br></a>
+				<a href = "p2supernatural.html">Supernatural<br></a>
+				</div>
+			</div> 
+		</div>
+
+			<div id = "bodycell">
+			<div id = "submitcell">
+			Got a favorite you don't see here? Let me know about it! <br>FEED ME WEBCOMI- uh, I mean, I always appreciate new recommendations.<br>
+			</div>
+			<br>
+			<br>
+			<div id = "submitform">
+			<form name = "submitform" action = "https://www.smith.edu/form_mail.php" method="post">
+			<input name="Form_Mailer_To" type="hidden" id="Form_Mailer_To" value="jkofke@smith.edu">
+			<input name="Form_Mailer_Name" type="hidden" id="Form_Mailer_Name" value="ComicHub Suggestion">
+			<input name="Form_Mailer_URL" type="hidden" id="Form_Mailer_URL" value="http://cs.smith.edu/~105a-at/project2/p2submit2.html">
+			Name: <input name="name" type="text" id="name" value=""> <br>
+			Email (optional): <input name="email" type="text" id="email" value = ""> <br>
+			Webcomic Name: <input name="webname" type="text" id= "webname" value=""><br>
+			Webcomic URL: <input name="url" type="text" id="url" value=""> <br>
+			Safe for Work? <input name = "sfw" type = "checkbox" id = "sfw"> Yes<br>
+			Give me a description! (aka sell me):<br> <textarea name = "description" cols = "40" rows = "5"> </textarea> <br> 
+			<input type="submit" name="submit" value="Submit"></input>
+			</form>
+
+
+
+
+

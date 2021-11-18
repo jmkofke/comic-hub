@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+<link rel="stylesheet" type="text/css" href="p2stylesheet.css">
+<script type="text/javascript" src="http://cs.smith.edu/~nhowe/105/examples/cookie.js"></script>
+<title>ComicHub</title>
+
+<script>
+function saveChoice(choice) {
+	setCookie("question2", choice);
+}
+</script>
+
+<body>
+
+	<table id = "header">
+		<tr align = "left">
+			<td id = "logocell"> <h1> [ComicHub]</h1></td>
+			<td align = "right"> <table id = "navbar">
+				<tr>
+					<td class = "navcell"> <a href = "project2.html"> Home </a> </td>
+					<!-- <td class = "navcell"> <a href = ""> Genres </a> </td> -->
+					<td class = "navcell"> <a href = "p2top10.html"> Top 10 </a> </td>
+					<td class = "navcell"> <a href = "p2quiz.html"> Quiz </a> </td>
+					<td class = "navcell"> <a href = "p2submit.html"> Submit </a> </td>
+				</tr></table>
+			</td>
+		</tr>
+		<tr id = "bar">
+			<td colspan = "2"></td>
+		</tr>
+	</table>
+
+	<div id = "body">
+		<div id = "sidebar">
+			<div id = "randombox">Comic of the Week: <br>
+			<a href="http://soultocall.com/"><img id="randImage" src="stcbanner.jpg"></a></div>
+
+			<div id = "genrebox">
+				<div id = "genretext">
+				<div id = "gheader"> Genres </div>
+				<a href = "p2action.html">Action<br></a>
+				<a href = "p2adventure.html">Adventure<br></a>
+				<a href = "p2comedy.html">Comedy<br></a>
+				<a href = "p2drama.html">Drama<br></a>
+				<a href = "p2fantasy.html">Fantasy<br></a>
+				<a href = "p2horror.html">Horror<br></a>
+				<a href = "p2lgbt.html">LGBT<br></a>
+				<a href = "p2mystery.html">Mystery<br></a>
+				<a href = "p2postapocalypse.html">Post-Apocalypse<br></a>
+				<a href = "p2romance.html">Romance<br></a>
+				<a href = "p2scifi.html">Science Fiction<br></a>
+				<a href = "p2sliceoflife.html">Slice of Life<br></a>
+				<a href = "p2supernatural.html">Supernatural<br></a>
+				</div>
+			</div> 
+		</div>
+
+			<div id = "bodycell">
+			<p><img id = "quizImage" src = "Q2.png" width = "400px"></p>
+			<p id = "question"> Do you like hints of a larger plot revealed slowly as the story unfolds?<br> Or do you like everything out on the table?<br></p>
+			<p id = "answers">o <a href = "p2quiz3.html" onClick="saveChoice('3')">Slower</a> please, I like trying to figure it all out
+			<br>o <a href="p2quiz3.html" onClick="saveChoice('4')">From the start</a> please, I like to know what I'm getting into</p>
+			</div>
+
+		</div>
+	</body>
+</html>
